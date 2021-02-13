@@ -1,0 +1,81 @@
+table {
+  width: 100%;
+  border: 1px;
+  border-collapse:collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+td.field {
+  width: 30%;
+  padding: 10px;
+  text-align: right;
+  font-weight: bold;
+  background-color: #e8eaf6;
+  border-bottom: solid 2px #fff;
+}
+
+td.data {
+  padding: 10px;
+  border-bottom: solid 2px #e8eaf6;
+}
+
+th {
+  background-color: #e8eaf6;
+  padding: 5px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.col3 {
+  flex: 25%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col4 {
+  flex: 33%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col6 {
+  flex: 50%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col8 {
+  flex: 66%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col9 {
+  flex: 75%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
